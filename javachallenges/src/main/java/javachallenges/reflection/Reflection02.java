@@ -1,9 +1,10 @@
 package javachallenges.reflection;
 
+import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 public class Reflection02 {
-	
+	/*
 	public static void main(String...strings) {
 		System.out.println(Jedi.class.getAnnotation(Table.class).name());
 		System.out.println(Jedi.class.getAnnotation(Column.class).name());
@@ -22,5 +23,5 @@ public class Reflection02 {
 	@Retention(RetentionPolicy.RUNTIME)
 	@interface Table {String name;}
 	@interface Column {String name;}
-
+*/
 }
